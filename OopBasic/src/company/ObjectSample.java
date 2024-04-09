@@ -12,10 +12,10 @@ public class ObjectSample {
         
         System.out.println("");
         var devDepartment = new Department("開発部", "yy", 0);
-        var engineer=new Employee("田中", devDepartment, "一般社員", 88);
+        var engineer = new Engineer("田中", devDepartment, "一般社員", 88, "Java");
         engineer.report();
         engineer.joinMeeting();
-     
+        engineer.developSoftware();
     }
 
 }
